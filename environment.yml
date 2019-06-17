@@ -1,0 +1,13 @@
+name: R2R_need_arcpy
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - matplotlib
+  - pandas
+  - scipy
+  - notebook 
+  - geopandas
+  - statsmodels
+  - xlrd
