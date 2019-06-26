@@ -30,10 +30,10 @@ This script is provided as open-source software on the condition that neither Sh
 
 &nbsp;
 
-This project was prepared for:
-American Samoa Environmental Protection Agency, P.O. Box PPA, Pago Pago, AS 96799
+###### This project was prepared for:
+the American Samoa Environmental Protection Agency, P.O. Box PPA, Pago Pago, AS 96799
 
-And was prepared by:
+###### And was prepared by:
 Shuler Hydrologic LLC, Honolulu, HI 96826   
 
   <p align="center">
