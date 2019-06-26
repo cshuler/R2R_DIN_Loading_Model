@@ -1,4 +1,4 @@
-# Please note that this information is preliminary or provisional and is subject to revision
+# Please note that all information contained in theis repository is preliminary or provisional and is subject to revision
 
 ## Island Wide Nutrient Modeling and Quantification of Coastal Freshwater Discharge for Tutuila, American Samoa
 
