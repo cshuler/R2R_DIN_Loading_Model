@@ -13,7 +13,7 @@ Contains computational steps used to format existing output from a Tutuila Water
 
 ###### The Tutuila Water Budget Model is freely available at:  https://github.com/UH-WRRC-SWB-model 
 
-#### Script 2 of 2  -   R2R_DIN_loading_model_Final.ipynb
+#### Script 2 of 2  -   "R2R_DIN_loading_model_Final.ipynb"
 Is the DIN Loading Module script, contains the computational steps used to develop a Tutuila-wide DIN loading model as documented in the report "Island Wide Nutrient Modeling and Quantification of Coastal Freshwater Discharge for Tutuila, American Samoa" as authored by Shuler Hydrologic LLC and delivered to the American Samoa Environmental Protection Agency. The purpose of posting this project online in an open-source setting is to increase its methodological transparency and make the study entirely reproducible or modifiable as the user’s discretion.
 
   
