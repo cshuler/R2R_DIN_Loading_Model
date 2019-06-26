@@ -1,4 +1,4 @@
-# ....................................... HOW TO USE THE MODEL.......................................
+# ............HOW TO USE THIS MODEL............
 Thanks for your interest in the Tutuila DIN loading model! Please note that this was originally developed as a research project with the intention of aiding local land use managers. It is not a finished product, it is not peer reviewed, and the authors hold no liability for its use or any occurrence resulting as a result of its use.   With that said, here is how the model is organized.
 
 ### Folder Organization 
@@ -21,7 +21,6 @@ This is where the actual model scripts are located. They are in .ipynb format an
 by clicking on them. This will open a read only version where you can see all the steps calculations, and output figures from 
 the modeling process. As stated above the SWB2 model script is separated from the Loading Model due to needing the ArcGIS/ArcPy
 module to run.
-
 
 
  ### To run the model   
