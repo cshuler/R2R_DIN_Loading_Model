@@ -10,12 +10,12 @@ This project is separated into two scrpts, script 1 of 2 needs the ArcPy module,
 
 Script 1 of 2 contains computational steps used to format existing output from a Tutuila Water Budget Model for use in the Tutuila-wide DIN loading model, which is documented in the report "Island Wide Nutrient Modeling and Quantification of Coastal Freshwater Discharge for Tutuila, American Samoa" as authored by Shuler Hydrologic LLC and delivered to the American Samoa Environmental Protection Agency.
 
-Script 2 of 2, The DIN Loading Module script, contains the computational steps used to develop a Tutuila-wide DIN loading model as documented in the report "Island Wide Nutrient Modeling and Quantification of Coastal Freshwater Discharge for Tutuila, American Samoa" as authored by Shuler Hydrologic LLC and delivered to the American Samoa Environmental Protection Agency. The purpose of posting this project online in an open-source setting is to increase its methodological transparency and make the study entirely reproducible or modifiable as the user’s discretion.
-
 #### The Tutuila Water Budget Model is freely available here: 
 https://github.com/UH-WRRC-SWB-model 
 
-   
+Script 2 of 2, The DIN Loading Module script, contains the computational steps used to develop a Tutuila-wide DIN loading model as documented in the report "Island Wide Nutrient Modeling and Quantification of Coastal Freshwater Discharge for Tutuila, American Samoa" as authored by Shuler Hydrologic LLC and delivered to the American Samoa Environmental Protection Agency. The purpose of posting this project online in an open-source setting is to increase its methodological transparency and make the study entirely reproducible or modifiable as the user’s discretion.
+
+  
  
   <p align="left">
   <img width="35" height="35" src=/Scripts/Images/SHLLCLogo.jpg >
