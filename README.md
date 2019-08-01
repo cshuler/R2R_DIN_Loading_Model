@@ -38,6 +38,9 @@ the American Samoa Environmental Protection Agency, P.O. Box PPA, Pago Pago, AS 
 ###### And was prepared by:
 Shuler Hydrologic LLC, Honolulu, HI 96826   
 
+
+
+
   <p align="center">
-  <img width="55" height="55" src=/Scripts/Images/SHLLCLogo.jpg >
-</p>
+  <a href="https://sites.google.com/site/shulerhydrologicllc/"><img src=/Scripts/Images/SHLLCLogo.jpg width="82" height="86" title="White flower" alt="Flower"></a>
+  </p>
