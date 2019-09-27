@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3462869.svg)](https://doi.org/10.5281/zenodo.3462869)
+
+
 # Please note that all information contained in this repository is preliminary or provisional and is subject to revision
 
 ## Island Wide Nutrient Modeling and Quantification of Coastal Freshwater Discharge for Tutuila, American Samoa
