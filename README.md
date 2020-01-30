@@ -6,7 +6,7 @@
 ## Island Wide Nutrient Modeling and Quantification of Coastal Freshwater Discharge for Tutuila, American Samoa
 
 <p align="center">
-  <img width="500" height="250" src=/Scripts/Images/Mo3.jpg >
+  <img width="500" height="250" src=/Docs/Figs/Results_Prioritization_Rank.jpg >
 </p>
 
 
@@ -16,7 +16,7 @@ The DIN loading model integrates island-wide water quality information from exte
 Final island-wide DIN loading rates were optimized by calibrating individual N-release rates for different modeled nutrient source types on Tutuila with the observed DIN loading rates in each fully sampled watershed. Overall, model results indicated SGD is an important coastal delivery mechanism for terrigenous N, that OSDS units are the predominant anthropogenic source of DIN to Tutuila’s coastal waters, and that the Tafuna-Leone Plain, various watersheds in the Pago Harbor area, the Tula region, and areas down gradient from Aasu and Aoloau Villages are likely hot-spots for coastal nutrient impacts.
 
 
-#### Use of the model
+## How to Use the model
 
 This project is separated into two scrpts, script 1 of 2 needs the ArcPy module, and thus an ESRI ArcGIS/ArcPro licence to run. Script 2 of 2 does not anc can be run independently. 
 
@@ -33,6 +33,103 @@ Is the DIN Loading Module script, contains the computational steps used to devel
 &nbsp;
 
 &nbsp;
+
+
+## Model Methods: 
+
+We developed a method to assess nutrient loads by integrating commonly available datasets within a geospatial modeling framework for Tutuila, American Samoa.  The DIN loading model used an open-source water budget model, water sampling data, and publically available streamflow data to predict watershed-scale DIN loading to the island’s entire coastline. The Tutuila DIN loading model considered three hydrologic pathways including (1) stream base flow from shallow aquifers, (2) surface runoff generated during rainfall events, and (3) submarine groundwater discharge (SGD) across the ocean-land interface into the ocean.
+
+ ### SWB calculated baseflow, Surface Runoff, and SGD
+<p align="center">
+  <img width="900" height="145" src=/Docs/Figs/SWB_spatial_3pathways.jpg >
+</p>
+ 
+&nbsp;
+
+&nbsp;
+
+
+### Geospatial definition of terrestrial Dissolved Inorganic Nitrogen (DIN) sources
+The SWB2 calculated water fluxes, calulated at the watershed scale, we then geospatially combined with four geospatial maps representing terrestrial DIN sources as defined by Shuler et al. 2017. Three of these were anthropogenic drivers On-Site Wastewater Disposal Systems (OSDS), piggeries, and agricultural fertilizer input. DIN from natural sources was also considered. To resolve the spatial distribution of anthropogenic DIN sources to a watershed scale, we mapped locations of every OSDS unit, every pig, and all known agricultural land and geospatially intersected these anthropogenic DIN sources to watershed boundaries. DIN release rates from each source were determined through model calibration for the equivalent source-activities on Tutuila. These rates were 0.021 kg-DIN/day per OSDS unit, 0.0381 kg-DIN/day per pig, and 0.77 kg-DIN/day per km2 of agricultural land (Shuler et al. 2017).
+
+  
+ <p align="center">
+  <img width="700" height="380" src=/Docs/Figs/DIN_sources_land_use.jpg >
+ </p>
+
+
+  
+&nbsp;
+
+&nbsp;
+
+### Model calibration 
+
+The model was calibrated by parameterizing an individual DIN release rate for each of the anthropogenic sources. Parameter optimization was performed using the Nelder-Mead unconstrained minimization method, and observation data in the form of watershed scale DIN loads,  were calculated by multiplying measured DIN concentrations with water discharge rates. Measured DIN concentrations were from a total of 424 individual stream samples that were collected from 38 individual stream sites and 26 coastal springs at a monthly interval for a one-year period from September 2016 to September 2017 (Comeros-Raynal et al 2018). 
+
+
+<p align="center">
+  <img width="700" height="380" src=/Docs/Figs/Watershed_sampling_map.jpg >
+</p>
+ 
+##### Locations of stream and coastal spring sample sites shown as circles and triangles, respectively, with shaded model watersheds draining to each site. Model designated watershed ID numbers are also shown for reference. 
+
+
+&nbsp;
+
+&nbsp;
+
+
+## Model Results
+The optimization routine provided calibrated values for DIN release rates from each of the three anthropogenic nutrient sources accounted for in the model by minimizing error between observed and modeled watershed-scale DIN loading rates. Multiplication of these release rates by the number of anthropogenic DIN sources in each watershed yielded absolute loading rates ranging from 0.1 kg-DIN/day for some of the smallest watersheds, to 88.2 kg-DIN/day for the largest watershed on the Tafuna-Leone Plain. 
+
+<p align="center">
+  <img width="800" height="400" src=/Docs/Figs/Results_Absolute_DIN_loads.jpg >
+</p>
+ 
+##### Comparisons between modeled DIN loading rates as separated by each nutrient source. Upper left panel shows total modeled DIN loads from all sources, and the other three panels (clockwise from upper right) show the absolute magnitude of DIN loaded to each watershed from OSDS units, pigs, and agriculture, respectively.
+
+
+### For interpretation, these coastal DIN loading rates were also scaled by watershed area:
+
+<p align="center">
+  <img width="600" height="300" src=/Docs/Figs/Results_AreaScaled_DIN_loads.jpg >
+</p>
+ 
+
+##### Relative model calculated DIN loading rates for each watershed scaled by sub watershed area, in kg-DIN/day per km2 of land and Numbers within watersheds show each of the DIN loads in kg/day/km2.
+
+### and by length of watershed coastline
+
+
+<p align="center">
+  <img width="600" height="300" src=/Docs/Figs/Results_CoastlineScaled_DIN_loads.jpg >
+</p>
+ 
+##### Relative model calculated DIN loading rates for each watershed, scaled by length of watershed shoreline in kg-DIN/day per km of coastline. Numbers within watersheds show each of the DIN loads in kg/day/km.
+
+
+&nbsp;
+
+&nbsp;
+
+
+### Impact Prioritization Ranking 
+Each of the above three ways of scaling DIN loading provides a different and unique presentation of impacts, while at the same time being limited by different biases. Thus, to simplify model results and aid coastal managers, a single watershed prioritization scheme was developed. Thus, to simplify model results and aid coastal managers, a single watershed prioritization scheme was developed. This scheme incorporates each of the three aforementioned loading metrics, and weights them equally in the output. 
+
+<p align="center">
+  <img width="700" height="350" src=/Docs/Figs/Results_Prioritization_Rank.jpg >
+</p>
+
+
+##### Relative impact prioritization through equal-weight ranking of absolute, area-scaled, and coastline length-scaled DIN fluxes from each watershed to the nearshore. Both colors and numeric labels in watersheds indicate the DIN impact prioritization ranking in each watershed with 1 being the most impacted and 93 the least. Note that if two watersheds had the same final score they were assigned the same rank number; thus some numbers are repeated. 
+
+
+
+&nbsp;
+
+&nbsp;
+
 
 
 # Disclaimer
