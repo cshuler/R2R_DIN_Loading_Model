@@ -1,4 +1,4 @@
-name: R2R_need_arcpy
+name: R2R_4
 channels:
   - conda-forge
 dependencies:
@@ -6,8 +6,9 @@ dependencies:
   - numpy
   - matplotlib
   - pandas
-  - scipy
-  - notebook 
+  - scipy 
   - geopandas
   - statsmodels
   - xlrd
+  - jupyter
+  - notebook
