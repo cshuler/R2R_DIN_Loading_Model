@@ -1,7 +1,10 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3462869.svg)](https://doi.org/10.5281/zenodo.3462869)
 
 
-### Please note that all information contained in this repository is preliminary or provisional and is subject to revision
+### Please note that, although published this project is dynamic and thus is subject to revision.
+Published article is archived [Here:](https://link.springer.com/article/10.1007/s00267-020-01314-4)
+
+Preprint article is archived [Here:](https://www.preprints.org/manuscript/202003.0101/v1)
 
 ## Island Wide Nutrient Modeling and Quantification of Coastal Freshwater Discharge for Tutuila, American Samoa
 
@@ -17,6 +20,9 @@ Final island-wide DIN loading rates were optimized by calibrating individual N-r
 
 
 ## How to Use the model
+
+### If you are interested in outputs only please see the output shapefile and results table [Here](Final_products): 
+Otherwise familiarity with Jupyter Notebooks and Python will allow for more in-depth exploration of the model. 
 
 This project is separated into two scrpts, script 1 of 2 needs the ArcPy module, and thus an ESRI ArcGIS/ArcPro licence to run. Script 2 of 2 does not anc can be run independently. 
 
