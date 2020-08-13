@@ -1,10 +1,8 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3462869.svg)](https://doi.org/10.5281/zenodo.3462869)
 
 
-### Please note that, although published this project is dynamic and thus is subject to revision.
-Published article is archived [Here:](https://link.springer.com/article/10.1007/s00267-020-01314-4)
-
-Preprint article is archived [Here:](https://www.preprints.org/manuscript/202003.0101/v1)
+#### Please note that although it is published, this project is dynamic and thus subject to revision.
+The Published article is archived [Here:](https://link.springer.com/article/10.1007/s00267-020-01314-4) and the Preprint article is archived [Here:](https://www.preprints.org/manuscript/202003.0101/v1)
 
 ## Island Wide Nutrient Modeling and Quantification of Coastal Freshwater Discharge for Tutuila, American Samoa
 
