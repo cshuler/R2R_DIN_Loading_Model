@@ -12,6 +12,8 @@ Preprint article is archived [Here:](https://www.preprints.org/manuscript/202003
   <img width="500" height="250" src=/Docs/Figs/Results_Prioritization_Rank.jpg >
 </p>
 
+For Model Ouptuts click [here!](Final_products):
+
 
 ### Executive Summary
 Excessive nutrient discharge to tropical island coastlines can cause algal blooms and eutrophication. To address these issues, environmental regulatory agencies often set water quality standards for discharging surface waters. However, such standards typically only consider surface water nutrient concentrations, which do not account for groundwater discharge, variability in flow, or dilution effects. Calculation of nutrient loads by multiplying concentrations of nutrients or other constituents in discharging waters by volumetric rates of water discharge, can provide better predictions of water quality conditions that influence nearshore biota, and may be a more accurate indicator of terrestrial impact. This report documents the development and application of an island-wide dissolved inorganic nitrogen (DIN) loading model for the island of Tutuila, in the Territory of American Samoa.
