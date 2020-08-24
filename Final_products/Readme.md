@@ -1,7 +1,6 @@
 ### This folder contains just the final products that most users and land managers will hopefully find most useful. 
 
 <p align="left">
-  <a href="https://github.com/cshuler/R2R_DIN_Loading_Model/tree/master/Final_products" title="Redirect to data">
     <img width="30" height="35" src=/Docs/Figs/web/csv_logo.png>
 </p>
 
@@ -9,7 +8,6 @@ The file: **Final_loading_modelDISTRIBUTE_Table.csv**  contains the same informa
 
 
 <p align="left">
-  <a href="https://github.com/cshuler/R2R_DIN_Loading_Model/tree/master/Final_products" title="Redirect to data">
     <img width="30" height="35" src=/Docs/Figs/web/shp.png>
 </p>
 
@@ -17,7 +15,6 @@ shapefile **Final_loading_model_DISTRIBUTE.shp** attribute table. Note that shap
 
 
 <p align="left">
-  <a href="https://github.com/cshuler/R2R_DIN_Loading_Model/tree/master/Final_products" title="Redirect to data">
     <img width="30" height="35" src=/Docs/Figs/web/kml.jpg>
 </p>
 
