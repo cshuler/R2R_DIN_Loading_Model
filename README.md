@@ -15,12 +15,12 @@ For Model Ouptuts see the [Final Products folder](Final_products): or click on t
 
 <table>
   <tr>
-    <td>Table in csv </td>
-     <td>Google Earth KML</td>
+    <td>....Data Table, .csv format.... </td>
+     <td>..Map file, Google Earth .kml.. </td>
   </tr>
   <tr>
     <td><a href="https://github.com/cshuler/R2R_DIN_Loading_Model/blob/master/Final_products/Final_loading_modelDISTRIBUTE_Table.csv" title="Redirect to data">
-       <img src=/Docs/Figs/web/csv_logo.png width="40" />
+       <img src=/Docs/Figs/web/csv_logo.png width="40" align="center"/>
        </a>
     <td><a href="https://github.com/cshuler/R2R_DIN_Loading_Model/blob/master/Final_products/Final_loading_model_Google_Earth.kmz?raw=true" title="Redirect to data">
        <img src=/Docs/Figs/web/kml.jpg      width="40" /> 
