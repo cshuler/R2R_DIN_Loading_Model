@@ -26,6 +26,15 @@ shapefile **Final_loading_model_DISTRIBUTE.shp** attribute table. Note that shap
 
 The .kmz file **Final_loading_model_Google_Earth.kmz** can be opened in Google Earth. It will display the Final_loading_model_DISTRIBUTE shapefile and is colored by total loading. Generally clicking on a watershed within Google Earth will bring up the model data assosiated with each watershed. 
 
+#### To view the KML in google earth head to: https://www.google.com/earth/ 
+
+and 
+
+### [Import your KML map data into Google Earth](https://support.google.com/earth/answer/7365595?co=GENIE.Platform%3DDesktop&hl=en)
+1. Using the web browser on your computer, open Google Earth.
+2. On the left, click Projects .
+3. Click the New Project button. To add a file directly to your computer, select open and Import KML File. 
+4. Select Final_loading_model_Google_Earth.kmz from your file browser
 
 
 Please email me if you have any questions! 
