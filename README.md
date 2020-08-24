@@ -10,7 +10,23 @@ The Published article is archived [Here:](https://link.springer.com/article/10.1
   <img width="500" height="250" src=/Docs/Figs/Results_Prioritization_Rank.jpg >
 </p>
 
-For Model Ouptuts click [here!](Final_products):
+For Model Ouptuts see the [Final Products folder](Final_products): or click on the format you would like below:
+
+
+<table>
+  <tr>
+    <td>Table in csv </td>
+     <td>Google Earth KML</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/cshuler/R2R_DIN_Loading_Model/blob/master/Final_products/Final_loading_modelDISTRIBUTE_Table.csv" title="Redirect to data">
+       <img src=/Docs/Figs/web/csv_logo.png width="40" />
+       </a>
+    <td><a href="https://github.com/cshuler/R2R_DIN_Loading_Model/blob/master/Final_products/Final_loading_model_Google_Earth.kmz?raw=true" title="Redirect to data">
+       <img src=/Docs/Figs/web/kml.jpg      width="40" /> 
+       </a>    
+  </tr>
+ </table>
 
 
 ### Executive Summary
