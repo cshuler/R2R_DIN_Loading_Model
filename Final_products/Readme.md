@@ -30,7 +30,7 @@ The .kmz file **Final_loading_model_Google_Earth.kmz** can be opened in Google E
 
 and 
 
-### [Import your KML map data into Google Earth](https://support.google.com/earth/answer/7365595?co=GENIE.Platform%3DDesktop&hl=en)
+##### [Import your KML map data into Google Earth](https://support.google.com/earth/answer/7365595?co=GENIE.Platform%3DDesktop&hl=en)
 1. Using the web browser on your computer, open Google Earth.
 2. On the left, click Projects .
 3. Click the New Project button. To add a file directly to your computer, select open and Import KML File. 
