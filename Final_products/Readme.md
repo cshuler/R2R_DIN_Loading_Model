@@ -1,7 +1,7 @@
 ### This folder contains just the final products that most users and land managers will hopefully find most useful. 
 
 <p align="left">
-    <a href="https://github.com/cshuler/R2R_DIN_Loading_Model/raw/master/Final_products/Final_loading_modelDISTRIBUTE_Table.csv" title="Redirect to data">
+    <a href="https://github.com/cshuler/R2R_DIN_Loading_Model/blob/master/Final_products/Final_loading_modelDISTRIBUTE_Table.csv" title="Redirect to data">
        <img width="30" height="35" src=/Docs/Figs/web/csv_logo.png>
     </a>
 </p>
